@@ -40,3 +40,5 @@ print(mmdet.__version__)
 ```
 
 # 이후 git clone으로 다운로드
+* https://github.com/open-mmlab/mmdetection/tree/main/configs/mask_rcnn 에서 사전학습모델 참조
+* mask-rcnn_x101-64x4d_fpn_1x_coco.py 적용함
