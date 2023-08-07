@@ -44,4 +44,4 @@ print(mmdet.__version__)
 * mask-rcnn_x101-64x4d_fpn_1x_coco.py 적용함
 
 # 모델 파일 (구글드라이브)
-* https://drive.google.com/drive/folders/1m6dGY71Ewu7DaepLpCThD2d52BcH4cZD?usp=drive_link
+* https://drive.google.com/drive/folders/1MZRvWRRKxrD_DqFi1q9pHujZfMnTF8bH?usp=drive_link
