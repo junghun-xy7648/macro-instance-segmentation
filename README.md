@@ -9,20 +9,20 @@ instance segmentation 중 Mask RCNN을 활용한 cast bloom의 macro crack detec
 
 ```python jupyter notebook
 !nvcc -V
-nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2019 NVIDIA Corporation
-Built on Sun_Jul_28_19:07:16_PDT_2019
-Cuda compilation tools, release 10.1, V10.1.243
+# nvcc: NVIDIA (R) Cuda compiler driver
+# Copyright (c) 2005-2019 NVIDIA Corporation
+# Built on Sun_Jul_28_19:07:16_PDT_2019
+# Cuda compilation tools, release 10.1, V10.1.243
 
-# pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-# pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.7.0/index.html
+!pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+!pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.7.0/index.html
 
-# !git clone https://github.com/open-mmlab/mmdetection.git
-# !git clone https://github.com/open-mmlab/mmcv.git
+!git clone https://github.com/open-mmlab/mmdetection.git
+!git clone https://github.com/open-mmlab/mmcv.git
 
-# !pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
-# !git clone https://github.com/open-mmlab/mmdetection.git
-# !cd mmdetection; python setup.py install
+!pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+!git clone https://github.com/open-mmlab/mmdetection.git
+!cd mmdetection; python setup.py install
 ```
 
 # 확인하기
