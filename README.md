@@ -43,5 +43,5 @@ print(mmdet.__version__)
 * https://github.com/open-mmlab/mmdetection/tree/main/configs/mask_rcnn 에서 사전학습모델 참조
 * mask-rcnn_x101-64x4d_fpn_1x_coco.py 적용함
 
-# 모델 파일 (구글드라이브)
-* https://drive.google.com/drive/folders/1MZRvWRRKxrD_DqFi1q9pHujZfMnTF8bH?usp=drive_link
+# 모델 파일 (구글드라이브, 공유필요)
+* https://drive.google.com/drive/folders/1OX7Q9kKspluaUqwcIqYlsDhbnRKPoEoL?usp=sharing
